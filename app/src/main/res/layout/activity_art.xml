@@ -18,6 +18,7 @@
         app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:onClick="selectImage"
         tools:srcCompat="@tools:sample/avatars" />
 
     <EditText
@@ -28,6 +29,7 @@
         android:ems="10"
         android:inputType="text"
         android:text="Enter Art Name"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -62,6 +64,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="25dp"
         android:text="Kaydet"
+        android:onClick="save"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/yearEditText" />
